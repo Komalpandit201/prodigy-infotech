@@ -1,0 +1,44 @@
+body {
+    z-index: 1000;
+}
+
+/* Navbar after scroll */
+.navbar.scrolled {
+    background-color: hsl(139, 90%, 45%);
+    box-shadow: 0 2px 10px #adee094d;
+}
+
+/* Menu layout */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Menu links */
+.nav-menu a {
+    text-decoration: none;
+    color: rgb(196, 10, 10);
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+    background-color: rgb(32, 200, 116);
+    color: #333;
+}
+
+/* Page content */
+.content {
+    margin-top: 80px;
+    padding: 40px;
+    line-height: 1.8;
+}
+
+.section {
+    height: 100vh;
+    border-bottom: 1px solid #6102c6;
+}
