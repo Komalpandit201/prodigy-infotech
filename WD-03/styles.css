@@ -1,0 +1,53 @@
+body {
+
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#89f7fe,#66a6ff);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    padding: 8px;
+}
+
+
+
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}}
